@@ -95,8 +95,5 @@ public class GildedRose {
     		 SellIn_Decreases(i);
     		 sellin_lower_0(i);
     	 }
-    }
-    	
-    	
-    	
+    }	
     }
