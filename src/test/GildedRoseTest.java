@@ -7,9 +7,9 @@ import main.Item;
 
 class GildedRoseTest {
 	@Test
-    public void test_set() {
+	public void test_set() {
 		Item[] items = new Item[] {
-				new Item("+5 Dexterity Vest", 10, 20),
+		new Item("+5 Dexterity Vest", 10, 20),
                 new Item("Aged Brie", 2, 0),
                 new Item("Aged Brie",-8,49),
 		new Item("Aged Brie", 16, 80),
@@ -81,6 +81,6 @@ class GildedRoseTest {
 		machaine=items[10].name+", "+items[10].sellIn+", "+items[10].quality;
 		assertEquals(machaine, items[10].toString());
 		 
-    }
+	}
 
 }
